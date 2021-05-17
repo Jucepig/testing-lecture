@@ -5,4 +5,16 @@ module.exports = {
   sayHello() {
     return 'hello'
   },
+
+  returnSomeObject: () => {
+    return {one:1, two:2}
+  },
+
+  returnsTrue: () => {
+    return true
+  },
+
+  returnsArray: () => {
+    return ['John', 'Ariel', 'Willow', 'Zach']
+  }
 }
